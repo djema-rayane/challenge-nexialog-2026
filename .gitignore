@@ -1,6 +1,8 @@
 # Data files (large binary files - track with Git LFS or exclude)
 *.xlsb
 ~$*.xlsx
+# Ignore root-level portfolio.xlsx if accidentally left there (canonical version is in data/)
+/portfolio.xlsx
 
 # Python
 __pycache__/
